@@ -1,1 +1,112 @@
-/* место для вашего кода */
+/* Шапка сайта */
+
+.header {
+  position:relative;
+  display: grid;
+  align-items: center;
+  font-size: 18px;
+  grid-template-columns: 1fr min-content 1fr;
+  padding: 91px 15px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.link-list {
+  display: flex;
+  gap: 33px;
+  text-transform: lowercase;
+  flex-direction: row;
+}
+
+.link-list_item {
+  list-style-type:circle;
+}
+
+.active-link {
+  list-style: none;
+  text-decoration: none;
+}
+
+.logo-header {
+  display: block;
+  min-width: 148px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.35;
+  padding-left: 195px;
+  align-items: flex-start;
+}
+
+/*TODO: Тут пока что не трогай */
+/* Конец шапки */
+
+/* Начало главного блока */
+/* Надо доделать тень и всё починить смотри через F12 браузера*/
+
+.cover {
+  background-image: url("../images/cover.jpg");
+  position: absolute;
+  background-size: cover; /* я всё сломал */
+  opacity: 60%;
+  background-color: #000000;
+  color: #FFFFFF;
+  max-height: 757px;
+  text-transform: uppercase;
+  padding: 0 50px;
+  flex-direction: row;
+}
+
+.cover-title {
+  display: grid;
+  width: 100%;
+  font-weight: 700;
+  font-size: 100px;
+  letter-spacing: 30%;
+}
+
+.title-text {
+  padding-top: 165px;
+  
+}
+
+.title-text_center {
+  text-align: center;
+}
+
+.title-text_right {
+  text-align: right;
+  padding-bottom: 106px;
+  
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+  letter-spacing: 90%;
+  font-size: 22px;
+}
+
+.button-bet {
+  border: 1px #FFFFFF solid;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin-left: auto;
+  word-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.lots {
+  position:relative;
+}
