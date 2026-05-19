@@ -62,9 +62,8 @@
   position: relative;
   background-image: url("../images/cover.jpg");
   display: flex;
-  background-size: cover; 
-  color: #FFFFFF;
-  width: 1100px;
+  background-size: cover;
+  color: #FFFFFF; 
   max-height: 757px;
   text-transform: uppercase;
   flex-direction: column;
@@ -78,7 +77,7 @@
 
 .title-text {
   font-size: 100px;
-  letter-spacing: 30%;  
+  letter-spacing: 0.3em;
 }
 
 .title-text_left {
@@ -113,7 +112,7 @@
 .description {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   font-size: 22px;
   align-items: center;
   padding-right: 29px;
@@ -127,7 +126,6 @@
   border: 1px #FFFFFF solid;
   color: #FFFFFF;
   text-transform: uppercase;
-  margin-left: auto;
   word-spacing: 1px;
   background: transparent;
   padding: 12px 32px;
@@ -205,18 +203,20 @@
   display: inline-block;
   font-size: 20px;
   text-transform: lowercase;
-  margin-top: 30px;
-  margin-left: 40px;
+  padding-top: 30px;
+  padding-left: 40px;
 }
 
 /*Конец карточек*/
+
 /*Начало секции Об аукционе*/
 
 .about {
-  padding: 0 24px 180px;
   display: flex;
   gap: 72px;
   align-items: flex-start;
+  padding: 34px 50px 178px 68px;
+  width: 1120px;
 }
 
 .logo-about_background {
@@ -225,36 +225,36 @@
   height: 240px;
   background-color: #000000;
   border-radius: 100%;
-  margin-top: 34px;
-  margin-left: 44px;
 }
 
 .logo-about {
-  margin-top: 64px;
-  margin-left: 46px;
+  position: relative;
+  top: 64px;
+  left: 46px;
   width: 148px;
   height: 114px;
 }
 
 .about-content_text {
   flex: 1;
-  padding-top: 135px;
+  padding-top: 100px;
 }
 
 .about-title {
   font-size: 40px;
   text-transform: uppercase;
-  padding-bottom: 100px;
+  padding-bottom: 101px;
 }
 
 .about-text {
   font-size: 20px;
 }
 .about-indent {
-  margin-top: 24px;
+  padding-top: 24px;
 }
 
 /*Конец секции Об аукционе*/
+
 /*Начало футера*/
 
 .footer {
@@ -267,33 +267,35 @@
 }
 
 .link-list_footer {
+  display: flex;
   justify-self: center;
   flex-direction: column;
   gap: 0px;
   align-items: center;
   list-style: none;
-  padding-top: 2px;
+  padding-top: 3px;
   padding-right: 4px;
 }
 
 .list-social {
   display: flex;
-  gap: 48px;
+  gap: 42px;
   justify-content: flex-end;
   list-style: none;
   padding-right: 50px;
 }
 
 .list-social_item {
-  width: 48px;
-  height: 48px;
+  width: 54px;
+  height: 51px;
+  padding-top: 3px;
 }
 
 .contacts-footer {
   padding-left: 48px;
   justify-content: flex-start;
   width: 295px;
-  padding-top: 0;
+  padding-top: 3px;
 }
 
 /*Конец футера*/
