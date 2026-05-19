@@ -8,7 +8,7 @@
   grid-template-columns: 1fr min-content 1fr;
   padding: 85px 50px 90px;
   font-weight: 400;
-  color: #000000;
+  color: #000;
 }
 
 .link-list {
@@ -22,9 +22,8 @@
   list-style-type: circle;
 }
 
-.active-link {
+.link-list_item:first-of-type {
   list-style: none;
-  text-decoration: none;
 }
 
 .underline {
@@ -32,19 +31,17 @@
 }
 
 .logo-header {
-  display: block;
   min-width: 137px;
   padding-top: 7px;
 }
 
 .contacts {
-  display: flex;
-  flex-direction: column;
-  padding-left: 192px;
-  align-items: flex-start;
+  display: grid;
+  justify-self: end;
+  margin-right: 35px;
   line-height: 24px;
-  width: 400px;
   padding-top: 3px;
+  max-width: 204px;
   font-style: normal;
 }
 
@@ -62,8 +59,7 @@
   background-image: url("../images/cover.jpg");
   display: flex;
   background-size: cover;
-  color: #FFFFFF; 
-  max-height: 757px;
+  color: #FFF;
   text-transform: uppercase;
   flex-direction: column;
   padding: 160px 20px 50px;
@@ -98,7 +94,7 @@
 
 .overlay {
   position: absolute;
-  background-color: #000000;
+  background-color: #000;
   opacity: 0.6;
   inset: 0;
 }
@@ -122,8 +118,8 @@
 }
 
 .button-bet {
-  border: 1px #FFFFFF solid;
-  color: #FFFFFF;
+  border: 1px #FFF solid;
+  color: #FFF;
   text-transform: uppercase;
   word-spacing: 1px;
   background: transparent;
@@ -135,7 +131,7 @@
 /*Начало карточек*/
 
 .lots {
-  padding: 181px 24px 120px;
+  padding: 178px 24px 120px;
 }
 
 .lots-title {
@@ -165,7 +161,7 @@
   justify-content: flex-start;
   gap: 25px;
   list-style: none;
-  color: #FFFFFF;
+  color: #FFF;
 }
 
 .lots-card {
@@ -214,29 +210,30 @@
   display: flex;
   gap: 72px;
   align-items: flex-start;
-  padding: 35px 51px 178px 71px;
-  width: 1124px;
+  padding: 35px 30px 179px 71px;
 }
 
 .logo-about_background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   justify-self: stretch;
   width: 240px;
   height: 240px;
-  background-color: #000000;
+  background-color: #000;
   border-radius: 100%;
 }
 
 .logo-about {
-  position: relative;
-  top: 63px;
-  left: 47px;
   width: 148px;
   height: 114px;
 }
 
 .about-content_text {
+  display: flex;
   flex: 1;
   padding-top: 100px;
+  flex-wrap: wrap;
 }
 
 .about-title {
@@ -249,7 +246,8 @@
   font-size: 20px;
 }
 .about-indent {
-  padding-top: 24px;
+  padding-top: 23px;
+  line-height: 24px;
 }
 
 /*Конец секции Об аукционе*/
@@ -261,7 +259,7 @@
   font-size: 18px;
   grid-template-columns: 1fr 1fr 1fr;
   font-weight: 400;
-  color: #000000;
+  color: #000;
   padding-bottom: 82px;
 }
 
@@ -290,10 +288,13 @@
 }
 
 .contacts-footer {
-  padding-left: 51px;
-  justify-content: flex-start;
-  width: 295px;
-  padding-top: 3px;
+  display: grid;
+  justify-self: start;
+  margin-left: 50px;
+  line-height: 25px;
+  max-width: 237px;
+  font-style: normal;
+  padding-top: 0;
 }
 
 /*Конец футера*/
