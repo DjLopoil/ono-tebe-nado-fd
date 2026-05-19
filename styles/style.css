@@ -6,14 +6,14 @@
   align-items: center;
   font-size: 18px;
   grid-template-columns: 1fr min-content 1fr;
-  padding: 95px 50px 90px;
+  padding: 85px 50px 90px;
   font-weight: 400;
   color: #000000;
 }
 
 .link-list {
   display: flex;
-  gap: 31px;
+  gap: 33px;
   text-transform: lowercase;
   flex-direction: row;
 }
@@ -33,19 +33,18 @@
 
 .logo-header {
   display: block;
-  min-width: 140px;
-  padding-right: 5px;
+  min-width: 137px;
   padding-top: 7px;
 }
 
 .contacts {
   display: flex;
   flex-direction: column;
-  padding-left: 187px;
+  padding-left: 192px;
   align-items: flex-start;
   line-height: 24px;
   width: 400px;
-  padding-top: 7px;
+  padding-top: 3px;
   font-style: normal;
 }
 
@@ -67,7 +66,7 @@
   max-height: 757px;
   text-transform: uppercase;
   flex-direction: column;
-  padding: 162px 23px 50px;
+  padding: 160px 20px 50px;
 }
 
 .cover-title {
@@ -81,14 +80,14 @@
 }
 
 .title-text_left {
-  padding-left: 24px;
+  padding-left: 30px;
   padding-top: 5px;
 }
 
 .title-text_center {
   text-align: center;
   padding-top: 18px;
-  padding-left: 25px;
+  padding-left: 30px;
 }
 
 .title-text_right {
@@ -116,7 +115,7 @@
   font-size: 22px;
   align-items: center;
   padding-right: 29px;
-  padding-left: 25px;
+  padding-left: 32px;
 }
 .description-text {
   word-spacing: 18px;
@@ -136,7 +135,7 @@
 /*Начало карточек*/
 
 .lots {
-  padding: 183px 21px 120px;
+  padding: 181px 24px 120px;
 }
 
 .lots-title {
@@ -215,8 +214,8 @@
   display: flex;
   gap: 72px;
   align-items: flex-start;
-  padding: 34px 50px 178px 68px;
-  width: 1120px;
+  padding: 35px 51px 178px 71px;
+  width: 1124px;
 }
 
 .logo-about_background {
@@ -229,8 +228,8 @@
 
 .logo-about {
   position: relative;
-  top: 64px;
-  left: 46px;
+  top: 63px;
+  left: 47px;
   width: 148px;
   height: 114px;
 }
@@ -274,7 +273,6 @@
   align-items: center;
   list-style: none;
   padding-top: 3px;
-  padding-right: 4px;
 }
 
 .list-social {
@@ -282,7 +280,7 @@
   gap: 42px;
   justify-content: flex-end;
   list-style: none;
-  padding-right: 50px;
+  padding-right: 47px;
 }
 
 .list-social_item {
@@ -292,7 +290,7 @@
 }
 
 .contacts-footer {
-  padding-left: 48px;
+  padding-left: 51px;
   justify-content: flex-start;
   width: 295px;
   padding-top: 3px;
